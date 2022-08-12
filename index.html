@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="./src/styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">		
+<title>⚖️Unit converter</title>
+</head>
+<body>
+	<div class="main-containter">
+	<h1>Metric/Imperial Unit Conversion</h1>
+	<input id="number" type="number"></input>
+	<div class="btn">
+	<button id="convert-btn">Convert</button>
+	</div>
+	</div>
+	<div class="convert-calculation">
+	<div class="group1">
+		<h2>Length (Meter/Feet)</h2>
+		<p class="Length">
+			<span id="meter">0</span> meter = <span id="meterToFeet">0.000</span> feet
+			| <span id="feet">0</span> feet = <span id="feetToMeter">0.000</span>
+			meters
+		</p>
+		</div>
+	<div class="group2">
+			<h2>Volume (Liters/Gallons)</h2>
+			<p class="volume">
+				<span id="liter">0</span> liters = <span id="literstogallons">0.000</span> gallons
+			| <span id="gallons">0</span> gallons = <span id="gallonstoliters">0.000</span>
+			liters
+			</p>
+		</div>
+		<div class="group3">
+				<h2>Mass (Kilograms/Pounds)</h2>
+				<p class="mass">
+					<span id="kilos">0</span> kilos = <span id="kilostopounds">0.000</span> pounds
+			| <span id="pounds">0</span> pounds = <span id="poundstokilos">0.000</span>
+			kilos
+				</p>
+			</div>
+		</div>
+		<script src="./src/index.js"></script>
+</body>
+
+</html>
